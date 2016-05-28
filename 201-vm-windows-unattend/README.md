@@ -1,0 +1,16 @@
+# Deployment of an Windows VM that has unattend.xml content
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-vm-simple-windows%2Fazuredeploy.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-vm-simple-windows%2Fazuredeploy.json" target="_blank">
+    <img src="http://armviz.io/visualizebutton.png"/>
+</a>
+
+This template allows you to deploy a Windows VM containing unattend.xml content. This will deploy in West US on a D1 VM Size.
+
+Please find the TechNet documentation here:
+<ul>
+<li><a href="https://technet.microsoft.com/en-us/library/cc766283(v=ws.10).aspx" target="_blank">AutoLogon</a></li>
+<li><a href="https://technet.microsoft.com/en-us/library/cc722150(v=ws.10).aspx" target="_blank">FirstLogonCommands</a></li>
+</ul>
